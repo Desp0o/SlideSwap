@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+}
+
+.slideSection{
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide{
+    width: 100%;
+    height:100%;
+    display: none;
+}
+
+#s1{
+    background-color: brown;
+}
+
+#s2{
+    background-color: blueviolet;
+}
+
+#s3{
+    background-color: blue;
+}
+
+#s4{
+    background-color: yellow;
+}
+
+#s5{
+    background-color: aqua;
+}
+
+
+.vissible{
+    display: block;
+}
+
+.not_visible{
+    display: none;
+}
+
+.buttons{
+    position: absolute;
+    z-index: 2;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button{
+    width: 50px;
+    height: 20px;
+}
